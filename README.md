@@ -13,4 +13,4 @@ Some accomplishments that im proud of.
 - Familiarizing myself with muiltiple shortcuts in VsCode
     Emmet: Wrapper to speed up coding | Commenting / tabing  multi lines
 - Quicky identifying a flex box grid to get components to the right spots.
-- Using Google-Dev tools to spot hidden margins. Im looking at YOU <p>
+- Using Google-Dev tools to spot hidden margins.
