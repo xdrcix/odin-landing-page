@@ -28,11 +28,18 @@ a {
 /* Block 1 */
 .block1 {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    padding-top: 10px;
+    gap: 50px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    width: 820px;
+    
 }
 
 .header-left {
@@ -49,6 +56,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 820px;
+    padding-bottom: 100px;
+    gap: 20px;
 
 }
 
@@ -76,24 +86,54 @@ h1 {
     flex-direction: column;
 }
 
+.left-side button {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border-radius: 6px;
+    border-width: 0;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 800;
+    padding: 6px 16px;
+}
+
 .large-image {
     display: flex;
     align-items: stretch;
-    height: 206px;
+    width: 400px;
 }
 
 /* Block 2 */
 .block2 {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-
-
-.block2 .pictures {
+.content2 {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures {
+    display: flex;
+    gap: 30px;
+}
+
+h4 {
+
+}
+
+.pic {
+    border: 2px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
 }
 
 /* Block 3 */
