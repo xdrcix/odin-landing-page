@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,7 +17,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
     color: #F9FAF8;
     background-color: #1F2937;
 }
@@ -69,7 +72,7 @@ header {
 
 h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
     margin: 0;
 }
@@ -117,6 +120,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .pictures {
@@ -125,7 +129,14 @@ h1 {
 }
 
 h4 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 20px
+}
 
+.pic-block {
+    width: 132px;
 }
 
 .pic {
@@ -133,16 +144,50 @@ h4 {
     border-color: #3882F6;
     border-style: solid;
     border-radius: 6px;
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
 }
+
+.pic-text {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #1F2937;
+}
+
 
 /* Block 3 */
 .block3 {
+    background-color: #E5E7EB;
+}
+
+.content3 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    padding: 80px 0px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    text-align: start;
+    width: 650px;
+    margin: 0;
+}
+
+.author {
+    margin: 0;
+    width: 650px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
 }
 
 /* Block 4 */
@@ -150,12 +195,39 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 58px 0px;
 }
 
-.block4 .content4 {
+.content4 {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
     gap: 80px;
     background-color: #3882F6;
     border-radius: 6px;
+}
+
+.bottom-text-large {
+    font-size: large;
+    font-weight: 800;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.bottom-text-small  {
+    font-size: small;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 100px;
+    border-radius: 6px;
+    border: 2px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    padding: 6px 16px;
 }
